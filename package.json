@@ -1,0 +1,19 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+	"start-worker": "node worker.js",
+	"chat-server": "node chatserver.js",
+	"chat-client": "node chatclient.js"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zeromq": "^6.0.0-beta.17"
+  }
+}
